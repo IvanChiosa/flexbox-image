@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  font-family: "Jura", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(77, 76, 76, 0.6);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: gainsboro;
+  color: blue;
+}
+/* nav {
+    position: fixed;
+    width: 100%;
+} */
+
+.active {
+  background-color: red;
+  margin-top: 2px;
+  margin-right: 20px;
+  border-radius: 15%; 
+}
+
+/* head {
+    background-color: rgb(187, 167, 167);
+    padding: 1rem;
+} */
+body {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+}
+figure {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+
+}
+.bild_main {
+    object-fit: cover;
+    object-position: 50%;
+}
+main {
+    display: flex;
+}
+h1 {
+    display:inline-block;
+    font-size: 6rem;
+    color: red;
+}
+div {
+    display: flex;
+    writing-mode: vertical-lr; 
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
